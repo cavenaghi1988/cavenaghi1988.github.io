@@ -1,0 +1,23 @@
+@import 'base/variable';
+@import 'base/mixin';
+@import 'base/media';
+@import 'block/promo';
+@import 'block/_header';
+@import 'block/_buttons';
+@import 'block/information';
+@import 'block/consultetion';
+@import 'block/forms';
+@import 'block/_carousel';
+@import 'block/_catalog';
+@import 'block/_comments';
+
+* {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+}
+
+.container {
+    position: relative;
+    width: 950px;
+    margin: 0 auto;
+    
+}

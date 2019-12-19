@@ -1,0 +1,40 @@
+.information {
+    min-height: 470px;
+    padding: 69px 0px 81px 0px;
+    &__header {
+        font-size: 30px;
+        font-weight: 700;
+        color: #0d0d0d;
+        text-align: center;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 65px;
+    }
+    &__item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 247px;
+    }
+    &__title {
+        font-size: 18px;
+        font-weight: 700;
+        color: #0d0d0d;
+        margin-top: 38px;
+    }
+    &__dscr {
+        font-size: 14px;
+        font-weight: 300;
+        color: #0d0d0d;
+        margin-top: 26px;
+        text-align: center;
+        a {
+            text-decoration: underline;
+            color: #ff0000;
+        }
+    }
+
+}
